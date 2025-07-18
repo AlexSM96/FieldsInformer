@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{8EE6982C-2373-4C67-9648-5B47BE46097C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldInformer.Domain", "FieldInformer.Domain\FieldInformer.Domain.csproj", "{E2E2F743-4662-4BC2-80F0-3CD76EF95A4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{7DC41C6A-B017-4BEB-A154-D41387A1A9C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldInformer.WebAPI", "FieldInformer.WebAPI\FieldInformer.WebAPI.csproj", "{1ECC07D2-76E3-40C1-859D-6581ED78ECB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{C87315DB-5541-4D1A-ABE5-7BAD6C7A3A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldInformer.Application", "FieldInformer.Application\FieldInformer.Application.csproj", "{9EFF1AE4-2F58-4888-A353-666AC3208725}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2E2F743-4662-4BC2-80F0-3CD76EF95A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E2F743-4662-4BC2-80F0-3CD76EF95A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E2F743-4662-4BC2-80F0-3CD76EF95A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E2F743-4662-4BC2-80F0-3CD76EF95A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ECC07D2-76E3-40C1-859D-6581ED78ECB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ECC07D2-76E3-40C1-859D-6581ED78ECB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ECC07D2-76E3-40C1-859D-6581ED78ECB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ECC07D2-76E3-40C1-859D-6581ED78ECB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EFF1AE4-2F58-4888-A353-666AC3208725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFF1AE4-2F58-4888-A353-666AC3208725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFF1AE4-2F58-4888-A353-666AC3208725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFF1AE4-2F58-4888-A353-666AC3208725}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EE6982C-2373-4C67-9648-5B47BE46097C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E2E2F743-4662-4BC2-80F0-3CD76EF95A4A} = {8EE6982C-2373-4C67-9648-5B47BE46097C}
+		{7DC41C6A-B017-4BEB-A154-D41387A1A9C5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1ECC07D2-76E3-40C1-859D-6581ED78ECB6} = {7DC41C6A-B017-4BEB-A154-D41387A1A9C5}
+		{C87315DB-5541-4D1A-ABE5-7BAD6C7A3A0C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9EFF1AE4-2F58-4888-A353-666AC3208725} = {C87315DB-5541-4D1A-ABE5-7BAD6C7A3A0C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21612927-FA98-404E-BC7B-E529639C813D}
+	EndGlobalSection
+EndGlobal

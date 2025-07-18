@@ -1,0 +1,10 @@
+﻿global using FieldInformer.Application.DTOs;
+global using FieldInformer.Application.Exceptions;
+global using FieldInformer.Application.Extensions;
+global using FieldInformer.Application.KMLParser;
+global using FieldInformer.Application.Services.Interfaces;
+global using FieldInformer.Domain.Models;
+global using FieldInformer.Domain.Models.Base;
+global using Microsoft.Extensions.Configuration;
+global using SharpKml.Dom;
+global using SharpKml.Engine;
