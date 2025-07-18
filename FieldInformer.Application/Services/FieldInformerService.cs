@@ -78,11 +78,20 @@ public class FieldInformerService : IFieldInformerService
         try
         {
             var field = _fields.ParsedItems.FirstOrDefault(x => x.Id == fieldId);
-            if (field == null)
+            
+            if (field is null)
             {
                 throw new NotFoundException($"{nameof(Field)} ID = {fieldId}");
             }
 
+            var centroid = _centroids.ParsedItems.FirstOrDefault(x => x.Id == field.Id);
+
+            if (centroid is null)
+            {
+                throw new NotFoundException($"{nameof(Centroid)} ID = {fieldId}");
+            }
+
+            field.Locations.Center = new Domain.Models.Point(centroid.Coordiantes.Latitude, centroid.Coordiantes.Longitude);
             result.Value = field.Locations.Center
                 .GetDistanceToPointInMeters(new Domain.Models.Point(pointDto.Latitude, pointDto.Longitude));
 
