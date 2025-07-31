@@ -5,4 +5,7 @@ namespace FieldInformer.Domain.Models;
 public class Field : BaseModel
 {
     public Location Locations { get; set; } = new();
+
+    public Organization Organization { get; set; } = new();
+
 }
